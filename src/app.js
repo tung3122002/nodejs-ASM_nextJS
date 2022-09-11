@@ -38,7 +38,7 @@ mongoose.connect('mongodb://127.0.0.1:27017/ASMnextJS')
     .catch((error) => console.log(error));
     
 // connection
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 8000;
 app.listen(PORT, () => {
     console.log("Server is running port", PORT);
 })
